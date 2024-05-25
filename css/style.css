@@ -1,0 +1,267 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #163152;
+  background-color: #fdfdff;
+}
+
+/* header */
+
+.page-header {
+  margin-bottom: 40px;
+}
+
+/* services */
+
+.services {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(22, 49, 82, 0.1);
+}
+
+.services-content {
+  display: flex;
+  align-items: center;
+  width: 1170px;
+  margin: 0 auto;
+}
+
+
+
+
+.caption {
+  margin: 0;
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.lang-switcher {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-right: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.lang-switcher li {
+  margin-right: 10px;
+}
+
+.lang-switcher li:last-child {
+  margin-right: 0;
+}
+
+.lang-button-html {
+  display: block;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-image: url("../img/html.png");
+  background-size: 100%;
+  border: 1px solid #ff6633;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.lang-button-css {
+  display: block;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-image: url("../img/css3.png");
+  background-size: 100%;
+  border: 1px solid #3366ff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.lang-button-js {
+  display: block;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-image: url("../img/icon-js.png");
+  background-size: 50%;
+  border: 1px solid #ffcc33;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.lang-button-js:hover {
+  opacity: 0.5;
+}
+.lang-button-html:hover {
+  opacity: 0.5;
+}
+.lang-button-css:hover {
+  opacity: 0.5;
+}
+.lang-button-css:active {
+  opacity: 0.3;
+}
+.lang-button-html:active {
+  opacity: 0.3;
+}
+.lang-button-js:active {
+  opacity: 0.3;
+}
+
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  width: 1170px;
+  margin: 0 auto;
+  padding: 20px 55px;
+}
+
+.logo {
+  width: 64px;
+  height: 68px;
+  margin: 0;
+  margin-right: auto;
+}
+
+.site-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  margin-right: 40px;
+  list-style: none;
+  max-width: 990px;
+}
+
+.site-navigation-item {
+  margin-right: 30px;
+}
+
+.site-navigation-item:last-child {
+  margin-right: 0;
+}
+
+.site-navigation-item a {
+  font-size: 14px;
+  line-height: 18px;
+  color: #163152;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.site-navigation-item a:hover {
+  color: rgba(22, 49, 82, 0.5);
+}
+
+.site-navigation-item a:active {
+  color: rgba(22, 49, 82, 0.3);
+}
+
+.zagolovok{
+  display: block;
+  align-items: center;
+  text-align: center;
+  width: 1170px;
+  margin: 0 auto;
+  background-color: #ff6633;
+  background-image: linear-gradient(to right, #dc401d, #f18826);
+  
+
+}
+.cssstyle{
+  background-color: #3366ff;
+  background-image: none;
+}
+.jsstyle{
+  background-color: #ffcc33;
+  background-image: none;
+}
+.zagolovok h1{
+  padding-top: 50px;
+  padding-bottom: 15px;
+  font-size: 50px;
+  color: #fdfdff;
+
+}
+.zagolovok img{
+  width: 100%;
+} 
+.kontent{
+  display: flex;
+  align-items: center;
+  width: 1170px;
+  margin: 0 auto;
+
+
+}
+.kontent p{
+  color: #212942;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-size: 28px;
+}
+.text{
+  text-align: center;
+}
+.kartina{
+  width: 25%;
+}
+.kartina img{
+  width: 1170px;
+}
+.hiden{
+  display: none;
+}
+
+
+
+
+/* footer */
+
+.main-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-top: 120px;
+  font-size: 10px;
+  line-height: 12px;
+  border-top: 1px solid rgba(22, 49, 82, 0.1);
+}
+
+.footer-container {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 0 55px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-column {
+  width: 175px;
+}
+
+.main-footer .logo {
+  width: 100px;
+  height: 106px;
+  margin-bottom: 30px;
+}
+/* Выделение активной кнопки */
+
+.active {
+
+  background-color: #5ac4bf5b;
+  color: #fdfdff;
+  border-style: 5px;
+}
+
